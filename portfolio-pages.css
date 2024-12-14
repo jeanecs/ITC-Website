@@ -1,0 +1,82 @@
+.portfolio-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    margin: 0; 
+    padding: 0; 
+    border: none; 
+    background-color: #f9f9f9; 
+}
+
+.image-container {
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+.image-container img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    object-position: center center; 
+}
+
+#backToTop {
+    position: fixed; 
+    bottom: 20px;
+    left: 20px; 
+    background-color: #f39c12; 
+    color: white; 
+    border: none; 
+    border-radius: 25px; 
+    padding: 10px 15px; 
+    font-size: 16px;
+    text-decoration: none; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
+    cursor: pointer;
+    display: flex; 
+    align-items: center; 
+    gap: 8px;
+    transition: background-color 0.3s ease; 
+}
+
+#scrollToReferences{
+    position: fixed; 
+    bottom: 20px;
+    right: 20px; 
+    background-color: #f39c12; 
+    color: white; 
+    border: none; 
+    border-radius: 25px; 
+    padding: 10px 15px; 
+    font-size: 16px;
+    text-decoration: none; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
+    cursor: pointer;
+    display: flex; 
+    align-items: center; 
+    gap: 8px;
+    transition: background-color 0.3s ease; 
+}
+
+#backToTop, #scrollToReferences:hover {
+    background-color: #e67e22; 
+}
+
+#backToTop, #scrollToReferences .arrow {
+    font-size: 20px; 
+    line-height: 1; 
+}
+
+#scrollToReferences, #backToTop .text {
+    font-size: 16px; 
+    font-family: Arial, sans-serif;
+}
+
+.analysis-pages{
+    font-family: Arial, Helvetica, sans-serif;
+}

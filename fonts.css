@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'kollektif';
+    src: url('fonts/Kollektif.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'agrandir-bold';
+    src: url('fonts/Agrandir-TextBold.otf') format('truetype');
+}
+@font-face {
+    font-family: 'agrandir-heavy';
+    src: url('fonts/Agrandir-GrandHeavy.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'agrandir-regular';
+    src: url('fonts/Agrandir-Regular.otf') format('opentype');
+}

@@ -1,0 +1,47 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+.overview, #home {
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    padding: 100px 20px;
+    box-sizing: border-box; 
+}
+
+.welcome-text {
+    text-align: center; 
+    margin-top: 150px;
+    font-family: "agrandir-heavy", sans-serif;
+    font-size: 100px; 
+    font-weight: bold;
+    color: #080307;
+    margin-bottom: 0px;
+}
+
+
+.description-text {
+    font-family: "helvetica", sans-serif; 
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 0px;
+}
+
+.overview-content {
+    margin: 0;
+    padding: 0;
+}
+
+.divider {
+    width: 100%;
+    height: 10px; 
+    background: linear-gradient(to right, #000000 45%, transparent 20%, transparent 55%, #000000 55%);   
+}

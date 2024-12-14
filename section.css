@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.section-portfolios,
+.section-about {
+    height: 100vh; 
+    padding: 100px 20px; 
+    background-color: #0f1819;
+}
+
+.section-portfolios {
+    height: 100vh;
+    padding: 100px 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}

@@ -1,0 +1,108 @@
+
+/* Navbar Styling */
+.navbar {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    background-color: #0f1819;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 80px; 
+    z-index: 1000; 
+    padding: 0 20px; 
+}
+
+.navbar ul {
+    display: none;
+    list-style: none;
+    padding: 30px;
+    margin: 0;
+    display: flex; 
+    justify-content: flex-end; 
+}
+
+.navbar li {
+    position: relative; 
+    display: block; 
+}
+
+.navbar a {
+    font-family: "kollektif", sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    transition: background-color 0.3s ease; 
+}
+
+.navbar a:hover {
+    background-color: #444; 
+}
+
+.logo {
+    display: flex;
+    font-family: "agrandir-bold", sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 25px;
+    margin-left: 20px;
+}
+
+.logo-jeane {
+    font-family: "agrandir-bold", sans-serif;
+    color: #fdf3dd;
+    font-size: 24px;
+}
+
+.logo-site {
+    font-family: "kollektif", sans-serif;
+    color: #fdf3dd;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.dropdown-menu {
+    display: none !important; 
+    position: absolute; 
+    top: 100%; 
+    left: 0;
+    flex-direction: column;
+    background-color: #0f1819; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #444; 
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.dropdown-menu li {
+    width: 200px;
+}
+
+.dropdown-menu li a {
+    padding: 10px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    text-align: left;
+}
+
+.dropdown {
+    position: relative; 
+}
+
+
+.dropdown-menu li a:hover {
+    background-color: #444; 
+}
+
+/* Show Dropdown on Hover */
+.dropdown:hover .dropdown-menu {
+    display: flex !important;
+    flex-direction: column; 
+}
